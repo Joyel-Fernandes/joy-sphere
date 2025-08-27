@@ -1,11 +1,12 @@
 * {
     background-color: #264653;
+
 }
 
 
 
 p {
-    background-color: #7FB7BE;
+    background-color: transparent;
     font: 15px;
     font-weight: bold;
     color: black;
@@ -48,9 +49,10 @@ a {
     width: 50px;
     border: 3px solid black;
     border-radius: 5px;
+    margin-left: 20px;
 }
 
-#contact-nav{
+#contact-nav {
     padding-right: 20px;
 }
 
@@ -73,7 +75,10 @@ a {
 }
 
 .jersey-box {
-    background-color: #7FB7BE;
+    background-image: linear-gradient(to bottom right, white 20%, #7FB7BE 80%);
+    background-size: 300%;
+    background-position: left;
+
     height: fit-content;
     width: fit-content;
     padding: 20px;
@@ -81,4 +86,45 @@ a {
     border-radius: 10px;
     margin: 10px;
 
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        scale: 0.5;
+        transform: translateY(50px);
+    }
+
+    30% {
+        opacity: 1;
+        scale: 1;
+        transform: translateY(0px);
+    }
+
+    100% {
+        opacity: 1;
+        scale: 1;
+        transform: translateY(0px);
+    }
+
+}
+
+.fader {
+    opacity: 0;
+    animation: fadeIn linear,
+        gradientSft  linear;
+    animation-timeline: view();
+}
+
+
+
+@keyframes gradientSft {
+    0% {
+        background-position: left;
+    }
+
+    100% {
+        background-position: right;
+    }
 }
