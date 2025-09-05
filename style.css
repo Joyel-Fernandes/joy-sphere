@@ -1,6 +1,6 @@
 * {
-    background-color: #264653;
-
+    /* background-color: #264653; */
+    background-color: #072E33;
 }
 
 
@@ -33,9 +33,11 @@ a {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    border: 5px solid black;
+    border: 2.5px solid #294D61;
     padding-top: 10px;
-
+    box-shadow: 0px 0px 2.5px #00ffff,
+        0px 0px 5px #00ffff,
+        0px 0px 10px #00ffff;
 }
 
 
@@ -47,9 +49,10 @@ a {
 #nav-logo {
     height: 50px;
     width: 50px;
-    border: 3px solid black;
+    border: 1px solid black;
     border-radius: 5px;
-    margin-left: 20px;
+    box-shadow: 0 0 5px;
+    margin-left: 10px;
 }
 
 #contact-nav {
@@ -75,36 +78,46 @@ a {
 }
 
 .jersey-box {
-    background-image: linear-gradient(to bottom right, white 20%, #7FB7BE 80%);
+    background-image: linear-gradient(to bottom right, white 20%, #0F969C 80%);
     background-size: 300%;
     background-position: left;
 
     height: fit-content;
     width: fit-content;
     padding: 20px;
-    border: 5px solid #2A9D8F;
+    /* border: 5px solid #2A9D8F; */
+    border: 5px solid #0C7075;
+
     border-radius: 10px;
     margin: 10px;
-
+    box-shadow: 0px 0px 10px #00ffff,
+        0px 0px 20px #00ffff,
+        0px 0px 30px #00ffff;
 }
 
 
 @keyframes fadeIn {
     0% {
         opacity: 0;
-        scale: 0.5;
+        scale: 0.75;
         transform: translateY(50px);
     }
 
-    30% {
+    25% {
         opacity: 1;
         scale: 1;
         transform: translateY(0px);
     }
 
+    80% {
+        opacity: 1;
+        scale: .95;
+        transform: translateY(0px);
+    }
+
     100% {
         opacity: 1;
-        scale: 1;
+        scale: .9;
         transform: translateY(0px);
     }
 
@@ -113,7 +126,7 @@ a {
 .fader {
     opacity: 0;
     animation: fadeIn linear,
-        gradientSft  linear;
+        gradientSft linear;
     animation-timeline: view();
 }
 
@@ -128,3 +141,4 @@ a {
         background-position: right;
     }
 }
+
