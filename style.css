@@ -1,6 +1,6 @@
 * {
     /* background-color: #264653; */
-    background-color: #072E33;
+    background-color: #001d3d;
 }
 
 
@@ -9,7 +9,7 @@ p {
     background-color: transparent;
     font: 15px;
     font-weight: bold;
-    color: black;
+    color: #003566;
 }
 
 a {
@@ -21,7 +21,7 @@ a {
 
 .navigation {
 
-    background-color: #7FB7BE;
+    background-color: #ffd60a;
 
 
 
@@ -29,20 +29,20 @@ a {
 
 
 #nav-bar {
-    background-color: #7FB7BE;
+    background-color: #ffd60a;
     list-style: none;
     display: flex;
     justify-content: space-between;
-    border: 2.5px solid #294D61;
+    border: 2.5px solid #756c0c;
     padding-top: 10px;
-    box-shadow: 0px 0px 2.5px #00ffff,
-        0px 0px 5px #00ffff,
-        0px 0px 10px #00ffff;
+    box-shadow: 0px 0px 2.5px #fbff00,
+        0px 0px 5px #fbff00,
+        0px 0px 10px #fbff00;
 }
 
 
 .navBackground {
-    background-color: #7FB7BE;
+    background-color: #ffd60a;
 }
 
 
@@ -53,6 +53,7 @@ a {
     border-radius: 5px;
     box-shadow: 0 0 5px;
     margin-left: 10px;
+    margin-bottom: 5px;
 }
 
 #contact-nav {
@@ -78,7 +79,7 @@ a {
 }
 
 .jersey-box {
-    background-image: linear-gradient(to bottom right, white 20%, #0F969C 80%);
+    background-image: linear-gradient(to bottom right, white 20%, gold 80%);
     background-size: 300%;
     background-position: left;
 
@@ -86,13 +87,13 @@ a {
     width: fit-content;
     padding: 20px;
     /* border: 5px solid #2A9D8F; */
-    border: 5px solid #0C7075;
+    border: 5px solid #ffc300;
 
     border-radius: 10px;
-    margin: 10px;
-    box-shadow: 0px 0px 10px #00ffff,
-        0px 0px 20px #00ffff,
-        0px 0px 30px #00ffff;
+    margin: 20px;
+    box-shadow: 0px 0px 15px #fbff00,
+        0px 0px 20px #fbff00,
+        0px 0px 30px #fbff00;
 }
 
 
