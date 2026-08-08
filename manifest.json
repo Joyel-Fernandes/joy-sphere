@@ -1,0 +1,16 @@
+{
+  "name": "Joy Sphere",
+  "short_name": "JoySphere",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#001d3d",
+  "theme_color": "#001d3d",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/logo",
+      "type": "image/png",
+      "sizes": "96x96"
+    }
+  ]
+}
