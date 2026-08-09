@@ -1,7 +1,7 @@
 {
   "name": "Joy Sphere",
   "short_name": "JoySphere",
-  "start_url": "/index.html",
+  "start_url": "https://joyel-fernandes.github.io/joy-sphere/",
   "display": "standalone",
   "background_color": "#001d3d",
   "theme_color": "#001d3d",
